@@ -19,13 +19,15 @@ JPG:
 
 **[theyalow JPG Mobile](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level%201/theyalow/THEYALOW%20mobile.jpg)**
 
-- [ ] The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
+- [x] The reference point here is a successful per-pixel comparison via Pixel Perfect extension.
+Minor deviations from desktop/mobile mockups (missing play button, incorrect font-weight, vertical text alignment in bullet list).
+
 
 *[PerfectPixel extension for chrome](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)*
 
 *[Page Ruler extension for chrome](https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal?hl=en)*
 
-- [ ] Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge.
+- [x] Browser Support: Google Chrome, Mozilla Firefox, Microsoft Edge.
 
 
 ## Procedure
@@ -46,52 +48,52 @@ You must use pure HTML and CSS in your solution. Fonts and images must be hosted
 
 ## Terms of Reference
 
-ìInteractiveì means effects or animations depending on user's actions, like on hover or on click.
+‚ÄúInteractive‚Äú means effects or animations depending on user's actions, like on hover or on click.
 - Care about background styles.
 - Care about lines and colors.
 
 **Desktop**
 
 1. Header
-- [ ] Interactive nav.
-- [ ] Logo
-- [ ] Think of where `h1` should be used.
+- [x] Interactive nav. (non interactive slider arrows)
+- [x] Logo
+- [ ] Think of where `h1` should be used. ( h1 should not be hidden, moreover it is important to place it at the top of the content. Treat h1 tag as a chapter title in the book)
 
 2. Main
-- [ ] Video element placed with image placeholder.
-- [ ] Slider buttons could be inactive, but should exist.
+- [x] Video element placed with image placeholder.
+- [x] Slider buttons could be inactive, but should exist.
 - (Next)
-- [ ] 3 columns the same width.
-- [ ] svg icons.
+- [x] 3 columns the same width.
+- [x] svg icons. (but it would be great to export images into files with .svg ext and include into page as <img>
 - (Next)
-- [ ] Video element placed with image placeholder.
-- [ ] All '+' should be interactive.
-- [ ] Customize range input slider, could be inactive.
+- [x] Video element placed with image placeholder.
+- [ ] All '+' should be interactive. ( interactive behavior is missing on "plus" icons )
+- [ ] Customize range input slider, could be inactive. (input type range is not used)
 
 3. Footer
-- [ ] Logo
+- [x] Logo
 
 **Mobile**
 
 1. Header
-- [ ] Interactive nav.
-- [ ] Logo
+- [x] Interactive nav.
+- [x] Logo
 - [ ] Think of where `h1` should be used.
 
 2. Main
-- [ ] Video element placed with image placeholder.
-- [ ] Swiper instead of slider (for our case, just hide the slider).
+- [x] Video element placed with image placeholder.
+- [x] Swiper instead of slider (for our case, just hide the slider).
 - (Next)
-- [ ] 3 columns the same width.
-- [ ] svg icons.
+- [x] 3 columns the same width.
+- [x] svg icons.
 - (Next)
-- [ ] Video element placed with image placeholder.
+- [x] Video element placed with image placeholder.
 - [ ] All '+' should be interactive.
-- [ ] Twitter messages should have the same design with 2 lines - message and author. 
-- [ ] Form -> input + submit
+- [x] Twitter messages should have the same design with 2 lines - message and author. 
+- [x] Form -> input + submit
 
 3. Footer
-- [ ] Logo
+- [x] Logo
 
 
 ## Useful links
@@ -109,9 +111,9 @@ If you can't find font you are looking for, just replace it with same serif-styl
 
 
 ## If you don't have Photoshop to work with .psd files
-Thereís a good design tool: https://studio.psdetch.com/
-No sign-up is required, just click the ìopenî button or drag&drop the downloaded PSD template. Yes, its functionality is rather limited, but it is perfectly suitable for work with layers.
-If you need to extract an image, the ìexportî function is available.
+There‚Äôs a good design tool: https://studio.psdetch.com/
+No sign-up is required, just click the ‚Äúopen‚Äù button or drag&drop the downloaded PSD template. Yes, its functionality is rather limited, but it is perfectly suitable for work with layers.
+If you need to extract an image, the ‚Äúexport‚Äù function is available.
 It is perfectly functional to meet all the needs you would encounter in this homework.
 
 However, if you lack some of the functionality when using the previous service, give [Photopea](https://www.photopea.com/) a try.
